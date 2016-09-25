@@ -176,18 +176,14 @@
  *  some other optimize.
  *
  */
-
-/************************************************************************
-* VERSION 3.3.1 <DATE: 2016.9.25> by dnybz <cnfreebsd@163.com>
-* support logger reserve days, default 7 days.
-* support android ndk cxx-stl
-************************************************************************/
+// add suppport logger reserve days, default 7 days.  [9/25/2016 cnfreebsd@163.com]
 
 #pragma once
 #ifndef _ZSUMMER_LOG4Z_H_
 #define _ZSUMMER_LOG4Z_H_
 
 #include <string>
+#include <sstream>
 #include <errno.h>
 #include <stdio.h>
 #include <string.h>

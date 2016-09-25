@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
     ILog4zManager::getRef().setLoggerPath(LOG4Z_MAIN_LOGGER_ID, "./log2");
     ILog4zManager::getRef().start();
     ILog4zManager::getRef().setLoggerLevel(LOG4Z_MAIN_LOGGER_ID,LOG_LEVEL_TRACE);
+	ILog4zManager::getRef().setLoggerReserveDays(LOG4Z_MAIN_LOGGER_ID, 2);
     //LOGD: LOG WITH level LOG_DEBUG
     //LOGI: LOG WITH level LOG_INFO
 
