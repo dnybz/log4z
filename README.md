@@ -4,16 +4,18 @@ Welcome to the log4z wiki!
 [![Build Status](https://webapi.biicode.com/v1/badges/fenix/fenix/log4z/master)](https://www.biicode.com/fenix/log4z)   
 ```
 
-* VERSION 3.3.1 <DATE: 2016.9.25> by dnybz <cnfreebsd@163.com>
-1、 suppport logger reserve days, default 7 days.
-2、 support android ndk cxx-stl
-
 Log4z is an open source C++ lightweight & cross platform log library.   
 It provides in a C++ application log and trace debug function for 7*24h service program.  
 Support 64/32 of windows/linux/mac/android/iOS.   
 Log4z是一款开源的轻量级的跨平台日志库 主要针对7*24小时服务器程序的日志输出与跟踪调试,   
 支持64/32位的windows/linux/mac/android/iOS等操作系统.  
 ```
+
+* VERSION 3.3.1 <DATE: 2016.9.25> by dnybz <cnfreebsd@163.com>
+1、 suppport logger reserve days, default 7 days.
+2、 support android ndk cxx-stl
+
+
 ## Feature:  
 ```
 1. MIT open source license,very liberal.  
