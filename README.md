@@ -3,6 +3,11 @@ Welcome to the log4z wiki!
 [![Build Status](https://travis-ci.org/zsummer/log4z.svg?branch=master)](https://travis-ci.org/zsummer/log4z)
 [![Build Status](https://webapi.biicode.com/v1/badges/fenix/fenix/log4z/master)](https://www.biicode.com/fenix/log4z)   
 ```
+
+* VERSION 3.3.1 <DATE: 2016.9.25> by dnybz <cnfreebsd@163.com>
+1、 suppport logger reserve days, default 7 days.
+2、 support android ndk cxx-stl
+
 Log4z is an open source C++ lightweight & cross platform log library.   
 It provides in a C++ application log and trace debug function for 7*24h service program.  
 Support 64/32 of windows/linux/mac/android/iOS.   
@@ -76,7 +81,8 @@ E:\GITHUB\LOG4Z\PROJECT\BIN
   int main(int argc, char *argv[])  
   {  
       //start log4z  
-      ILog4zManager::getRef().start();  
+      ILog4zManager::getRef().start();
+	  ILog4zManager::getRef().setLoggerReserveDays(LOG4Z_MAIN_LOGGER_ID, 2);	  
       
       //begin test stream log input....  
       LOGT("stream input *** " << "LOGT LOGT LOGT LOGT" << " *** ");  
